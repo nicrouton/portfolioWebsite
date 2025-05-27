@@ -10,6 +10,10 @@
     justify-content: space-between;
 }
 
+#footer-logo{
+    width: 140px;
+}
+
 .footer-topleft p{
     font-size: 20px;
     max-width: 400px;

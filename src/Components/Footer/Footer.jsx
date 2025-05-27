@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import footer_logo from '../../assets/footer_logo.svg'
+import footer_logo from '../../assets/portfolioLogo.png'
 import user_icon from '../../assets/user_icon.svg'
 
 const Footer = () => {
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer'>
             <div className="footer-top">
                 <div className="footer-topleft">\
-                    <img src={footer_logo}></img>
+                    <img id='footer-logo' src={footer_logo}></img>
                     <p>Frontend Developer</p>
                 </div>
                 <div className="footer-topright">
@@ -21,9 +21,8 @@ const Footer = () => {
             </div>
             <hr />
             <div className="footer-bottom">
-                <p className='footer-bottom-left'>copyright 2025 Nicholas Croulet. All rights reserved.</p>
+                <p className='footer-bottom-left'>© 2025 Nicholas Croulet. All rights reserved.</p>
                 <div className='footer-bottom-right'>
-                    <p>Terms of Service</p>
                     <p>Connect with Me</p>
                 </div>
             </div>

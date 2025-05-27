@@ -7,9 +7,9 @@ const Hero = () => {
     return(
         <div id='home' className='hero'>
             <img id='selfie-top' src={profile_img}></img>
-            <h1>I am <span>Nicholas Croulet</span>, a Computer Science student at Temple.</h1>
+            <h1> Welcome to my site! My name is <span>Nicholas Croulet</span> </h1>
             <p>
-                I have experience with frontend development, python, github, agile, and cybersecurity.
+                I am a CS undergrad with experience in frontend web development, python, and java.
             </p>
             <div className='hero-action'>
                 <div className='hero-connect'>
